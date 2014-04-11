@@ -1,0 +1,64 @@
+\documentclass{article}
+\usepackage{a4wide}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{acronym}
+\usepackage{lastpage}
+\usepackage{color}
+\usepackage[subtle]{savetrees}
+\newcommand{\highlight}[1]{\colorbox{yellow}{#1}}
+\urlstyle{same}
+
+\title{Net Neutrality}
+
+\author{Martijn Dwars\and
+    Jason Raats\and
+    Tim Rensen\and
+    Rick Wieman\and
+\\Delft University of Technology
+\\\{M.T.Dwars, J.M.Raats, T.Rensen, R.Wieman\}@student.tudelft.nl
+}
+\date{\today}
+
+\pagestyle{fancy}
+\lhead{Net Neutrality}
+\rhead{page \thepage\ of \pageref{LastPage}}
+\cfoot{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+To be written\ldots
+
+\textbf{Keywords}: net neutrality, \ldots
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+\input{intro}
+
+\section{Our Arguments}
+\label{sec:arguments}
+\input{arguments}
+
+\section{Possible Objections}
+\label{sec:objections}
+\input{objections}
+
+\section{Our Proposed Solution}
+\label{sec:solution}
+\input{solution}
+
+\section{Conclusion}
+\label{sec:conclusion}
+\input{conclusion}
+
+\bibliographystyle{plain}
+\bibliography{ref}
+
+\end{document}
